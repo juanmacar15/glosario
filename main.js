@@ -1,9 +1,7 @@
-function multiply(a, b = 1) {
-    return a * b;
-  }
-  
-  console.log(multiply(5, 2));
-  // expected output: 10
-  
-  console.log(multiply(5));
-  // expected output: 5
+function exampleFunction() {
+    var x = "declarada dentro de la función"; // x solo se puede utilizar en exampleFunction
+    console.log("funcion interna");
+    console.log(x);
+}
+
+console.log(x);  // error
