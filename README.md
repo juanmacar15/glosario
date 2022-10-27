@@ -89,3 +89,20 @@ const factorial = function fac(n) {
 
 console.log(factorial(3));
 ```
+
+# parametros
+
+**Parámetros predeterminados de función** permiten que los parámetros con nombre se inicien con valores predeterminados si no se pasa ningún valor o `undefined`.
+
+```js
+function multiply(a, b = 1) {
+  return a * b;
+}
+
+console.log(multiply(5, 2));
+// expected output: 10
+
+console.log(multiply(5));
+// expected output: 5
+```
+
