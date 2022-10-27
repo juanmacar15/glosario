@@ -66,3 +66,14 @@ function testinput(re, str) {
 }
 ```
 
+# operador ternario
+
+El **operador condicional** (**ternario**) es el único operador en JavaScript que tiene tres operandos. Este operador se usa con frecuencia como atajo para la instrucción [if](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else).
+
+```js
+var firstCheck = false,
+    secondCheck = false,
+    access = firstCheck ? "Acceso Denegado" : secondCheck ? "Acceso Denegado" : "Acceso Permitido";
+
+console.log( access );
+```

@@ -1,9 +1,5 @@
-function testinput(re, str) {
-    var midstring;
-    if (str.search(re) != -1) {
-      midstring = ' contains ';
-    } else {
-      midstring = ' does not contain ';
-    }
-    console.log(str + midstring + re);
-  }
+let firstCheck = false,
+    secondCheck = false,
+    access = firstCheck ? "Acceso Denegado" : secondCheck ? "Acceso Denegado" : "Acceso Permitido";
+
+console.log( access );
