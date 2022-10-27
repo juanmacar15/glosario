@@ -178,3 +178,15 @@ console.log(materials.map(material => material.length));
 // expected output: Array [8, 6, 7, 9]
 ```
 
+# funciones expresivas
+
+En las funciones expresivas[,](https://www.tecnoiptv.site/search/label/JavaScript) la declaración se inicia con la **palabra reservada var**, donde *se generará una variable que guardará una función anónima*.
+
+```js
+function saludar(nombre){
+    console.log(`hola ${nombre}`);
+}
+
+saludar('juanmacar');
+```
+
