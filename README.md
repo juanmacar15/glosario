@@ -161,3 +161,20 @@ dividirCadena(cadenaVerso, espacio);
 dividirCadena(cadenaVerso);
 dividirCadena(cadenaMeses, coma);
 ```
+
+# funciones flecha
+
+Una **expresión de función flecha** es una alternativa compacta a una `expresión de función` tradicional, pero es limitada y no se puede utilizar en todas las situaciones.
+
+```js
+const materials = [
+  'Hydrogen',
+  'Helium',
+  'Lithium',
+  'Beryllium'
+];
+
+console.log(materials.map(material => material.length));
+// expected output: Array [8, 6, 7, 9]
+```
+
