@@ -1,11 +1,4 @@
-addEventListener("DOMContentLoaded", (e) => {
-    let formulario = document.querySelector("#form");
-    formulario.addEventListener("submit", (e) => {
-        e.preventDefault();
+let numeros = [1, 4, 9];
+let raices = numeros.map(Math.sqrt);
 
-        const array1 = ['a', 'b', 'c'];
-
-    array1.forEach(element => console.log(element));
-        
-    })
-})
+console.log(raices);
