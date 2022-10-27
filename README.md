@@ -190,3 +190,15 @@ function saludar(nombre){
 saludar('juanmacar');
 ```
 
+# funciones declaradas
+
+En las funciones declarativas[,](https://www.tecnoiptv.site/search/label/Programacion) utilizamos la **palabra reservada function** al inicio para poder *declarar la función*.
+
+```js
+let nombre = function (nombre){
+    console.log(`hola ${nombre}`)
+}
+
+nombre('juanmacar <3');
+```
+

@@ -1,5 +1,5 @@
-function saludar(nombre){
-    console.log(`hola ${nombre}`);
+let nombre = function (nombre){
+    console.log(`hola ${nombre}`)
 }
 
-saludar('juanmacar <3');
+nombre('juanmacar <3');
