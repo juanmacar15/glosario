@@ -1,5 +1,5 @@
-let firstCheck = false,
-    secondCheck = false,
-    access = firstCheck ? "Acceso Denegado" : secondCheck ? "Acceso Denegado" : "Acceso Permitido";
-
-console.log( access );
+const factorial = function fac(n) {
+    return n < 2 ? 1 : n * fac(n - 1);
+  };
+  
+  console.log(factorial(3));

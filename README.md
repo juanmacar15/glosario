@@ -77,3 +77,15 @@ var firstCheck = false,
 
 console.log( access );
 ```
+
+# funciones
+
+Las funciones son uno de los bloques de construcción fundamentales en JavaScript.
+
+```js
+const factorial = function fac(n) {
+  return n < 2 ? 1 : n * fac(n - 1);
+};
+
+console.log(factorial(3));
+```
