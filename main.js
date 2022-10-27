@@ -3,9 +3,9 @@ addEventListener("DOMContentLoaded", (e) => {
     formulario.addEventListener("submit", (e) => {
         e.preventDefault();
 
-        for ( let i = 0; i <=10; i++) {
-            alert(i);
-        }
+        const array1 = ['a', 'b', 'c'];
+
+    array1.forEach(element => console.log(element));
         
     })
 })
