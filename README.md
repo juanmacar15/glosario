@@ -119,3 +119,18 @@ function exampleFunction() {
 
 console.log(x);  // error
 ```
+
+# clausula
+
+Una cláusula **es una función que tiene acceso al ambito de su función padre, incluso después de que la función padre haya terminado de ejecutar**.
+
+```js
+function iniciar() {
+  var nombre = "Mozilla";  // La variable nombre es una variable local creada por iniciar.
+  function mostrarNombre() {  // La función mostrarNombre es una función interna, una clausura.
+    alert(nombre);  // Usa una variable declarada en la función externa.
+  }
+  mostrarNombre();
+}
+iniciar();
+```

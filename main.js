@@ -1,7 +1,8 @@
-function exampleFunction() {
-    var x = "declarada dentro de la función"; // x solo se puede utilizar en exampleFunction
-    console.log("funcion interna");
-    console.log(x);
-}
-
-console.log(x);  // error
+function iniciar() {
+    var nombre = "JUANMACAR <3";  // La variable nombre es una variable local creada por iniciar.
+    function mostrarNombre() {  // La función mostrarNombre es una función interna, una clausura.
+      alert(nombre);  // Usa una variable declarada en la función externa.
+    }
+    mostrarNombre();
+  }
+  iniciar();
